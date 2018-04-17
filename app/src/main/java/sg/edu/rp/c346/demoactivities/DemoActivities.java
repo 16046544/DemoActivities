@@ -14,12 +14,12 @@ public class DemoActivities extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_demo_activities);
 
-        Button btnDone = findViewById(R.id.buttonDone);
-        btnDone.setOnClickListener(new View.OnClickListener() {
+        Button btnDone = (Button) findViewById(R.id.buttonDone);
+        btnDone.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                EditText etName = findViewById(R.id.etName);
-                EditText etAge = findViewById(R.id.etAge);
+                EditText etName = (EditText) findViewById(R.id.editTextName);
+                EditText etAge = (EditText)findViewById(R.id.editTextAge);
 
                 String[] info = {etName.getText().toString(),
                 etAge.getText().toString()};

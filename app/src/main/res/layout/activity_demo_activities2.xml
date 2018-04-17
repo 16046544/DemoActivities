@@ -7,12 +7,11 @@
     android:paddingLeft="16dp"
     android:paddingRight="16dp">
 
-    <!-- Include other widget or layout tags here. These are considered
-            "child views" or "children" of the linear layout -->
 
     <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:text=" "/>
 
 </LinearLayout>
